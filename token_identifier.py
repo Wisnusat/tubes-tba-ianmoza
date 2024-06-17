@@ -5,7 +5,7 @@ class TokenIdentifier:
             "aku": "S", "anda": "S", "mereka": "S", "kami": "S", "engkau": "S",
             "membaca": "P", "menulis": "P", "menggambar": "P", "menari": "P", "berbicara": "P",
             "buku": "O", "pena": "O", "komputer": "O", "meja": "O", "kursi": "O",
-            "di taman": "K", "di kantor": "K", "di perpustakaan": "K", "pada malam hari": "K", "dengan cepat": "K"
+            "di-taman": "K", "di-kantor": "K", "di-perpustakaan": "K", "pada-malam-hari": "K", "dengan-cepat": "K"
         }
 
     def identify(self, token):
